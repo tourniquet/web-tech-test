@@ -2,9 +2,12 @@
 
 ## Overview
 
-Even though we use React, you can solve the test without it. This means that, if you want to use a framework, we require React. Otherwise, please use plain vanilla JS, with some helper libraries (in case you need to).
+Create a Web app that utilises the NASA Open API for browsing the Astronomy Picture of the Day.
 
-Create a Web app that utilises the NASA Open API for browsing the Astronomy Picture of the Day
+We use React at Cornerstone and would prefer the test to be completed with this library. 
+So, if you want to use a framework/library, we require React, otherwise, please use plain vanilla JS, with some helper libraries (if required).
+
+Please spend up to around 2 hours on this task.
 
 ## Criteria
 
