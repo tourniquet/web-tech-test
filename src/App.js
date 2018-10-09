@@ -1,7 +1,6 @@
-import React from 'react';
-import { injectGlobal } from 'styled-components';
-import styled from 'styled-components';
-import Gallery from './components/Gallery';
+import React from 'react'
+import { injectGlobal } from 'styled-components'
+import Gallery from './components/Gallery'
 
 injectGlobal`
   body {
@@ -24,13 +23,12 @@ injectGlobal`
   }
 `
 
-class App extends React.Component{
-
-    render(){
-        return(
-            <Gallery/>
-        )
-    }
+class App extends React.Component {
+  render () {
+    return (
+      <Gallery />
+    )
+  }
 }
 
-export default App;
+export default App

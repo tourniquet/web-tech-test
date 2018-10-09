@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
 const ImageDiv = styled.div`
     max-height: 800px;
@@ -17,18 +17,16 @@ const ImageDiv = styled.div`
         color: #ffffff;
         font-size: 1.2em;
     }
-`;
+`
 
-class Image extends React.Component{
+const Image = props => {
+  const msg = (this.props.error === 400 || this.props.error === 500) && <p>There is no image available for this date.</p>
 
-    render(){
-        const msg = (this.props.error === 400 || this.props.error === 500) && <p>There is no image available for this date.</p>
-        return(
-            <ImageDiv src={this.props.background}>
-                {msg}
-            </ImageDiv>
-        )
-    }
+  return (
+    <ImageDiv src={this.props.background}>
+      {msg}
+    </ImageDiv>
+  )
 }
 
-export default Image;
+export default Image
